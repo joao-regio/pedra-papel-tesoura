@@ -1,0 +1,37 @@
+.player-options img,
+.enemy-options img{
+    max-width: 150px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.player-options, .enemy-options{width: 50%;}
+
+.align{
+    display: flex;
+}
+
+.vencedor{
+    animation-name: anunciarVitoria;
+    animation-duration: 3s;
+    animation-delay: .3s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    height: 50px;
+    font-size: 37px;
+}
+
+@keyframes anunciarVitoria {
+    5%{background-color: red;
+    color: black;}
+    20%{background-color: purple;
+    color: brown;}
+    40%{background-color: yellow;
+    color: purple;}
+    60%{background-color: green;
+    color: yellow;}
+    80%{background-color: aquamarine;
+    color: #053501;}
+    100%{background-color: orange;
+    color: aquamarine;}
+}
