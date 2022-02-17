@@ -1,3 +1,7 @@
+html,body{
+    background-image: linear-gradient(cyan yellow);
+}
+
 .player-options img,
 .enemy-options img{
     max-width: 150px;
